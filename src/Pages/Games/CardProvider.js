@@ -102,7 +102,7 @@ export class CardProvider extends React.Component {
         </div>
         {listLoading && <PageLoader />}
         {hasError && <div>Error...</div>}
-        {splicedList && splicedList.length === 0 && (
+        {!hasError&&splicedList && splicedList.length === 0 && (
           <h4 className="no-msg">No Games Found</h4>
         )}
 
