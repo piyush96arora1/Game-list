@@ -8,17 +8,6 @@ export const Style = {
         minHeight:`225px`,
     }
     ,
-    PositiveReturn: {
-        color: `green`,
-        fontWeight: `bold`
-    }
-    ,
-
-    NegetiveReturn: {
-        color: `red`,
-        fontWeight: `bold`
-    }
-    ,
     Heading: {
         fontWeight: `lighter`,
         color: `grey`
